@@ -69,6 +69,7 @@ The primary dataset used for this project is the California Department of Forest
 A secondary dataset used in this project is "CAL FIRE Administrative Units" dataset which provides information on the administrative units responsible for fire management in California. This dataset was also obtained from the California Open Data Portal, but downloaded in shapefile format. It was used to gain insights into the approximate locations of fire agencies and the areas they cover.
 
 [Link to California Fire Perimeters (all)](https://data.ca.gov/dataset/california-fire-perimeters-all)
+
 [Link to CAL FIRE Administrative Units](https://data.ca.gov/dataset/cal-fire-administrative-units)
 
 ### Code
@@ -88,6 +89,9 @@ When creating the dataset and designing the relational schema, there were severa
 ## Metadata
 ### Schema ERD
 ![ERD](./Images/Entity_Relationship_Diagram.png)
+
+<img src="./Images/Entity_Relationship_Diagram.png" alt="ERD" width="600">
+
 
 ### Data Table
 
