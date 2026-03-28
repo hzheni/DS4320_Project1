@@ -1,7 +1,7 @@
 # DS4320_Project1: Predicting California Wildfire Burn Area Using Causal, Temporal, and Weather Data
 
 ### Executive Summary
-This README now documents a GFM-focused DS 4320 project and includes completed project metadata (name, NetID, DOI, links, and license) plus a summary table for quick reference. It also contains a defined problem statement, rationale, references with footnotes, a terminology table, callout examples, and code highlighting examples to demonstrate practical GitHub Flavored Markdown usage.
+California experiences some of the most severe and frequent wildfires in the United States, posing significant risks to human life, property, and ecosystems. This project focuses on predicting wildfire burn area in California using historic wildfire incident data, including a combination of causal factors (human activity), temporal factors (seasonality, time of year), and weather conditions (temperature, precipitation, wind speed). The project utilizes the California Fire Perimeters and Administrative Units datasets from CAL FIRE, which provides detailed records of wildfire incidents and management across the state. By building a relational database to organize this data and building a predictive model, the project aims to provide insights into the factors that contribute to wildfire size that may help inform public safety strategies for wildfire prevention and mitigation in California.
 
 ---
 | Spec | Value |
