@@ -88,10 +88,7 @@ When creating the dataset and designing the relational schema, there were severa
 
 ## Metadata
 ### Schema ERD
-![ERD](./Images/Entity_Relationship_Diagram.png)
-
-<img src="./Images/Entity_Relationship_Diagram.png" alt="ERD" width="600">
-
+<img src="./Images/Entity_Relationship_Diagram.png" alt="ERD" width="300">
 
 ### Data Table
 
@@ -113,7 +110,7 @@ When creating the dataset and designing the relational schema, there were severa
 | time_id           | Integer   | Foreign key linking to time information                   | 3    |
 | weather_id        | Integer   | Foreign key linking to the weather information   | 4       |
 | unit_id           | String    | Abbreviated key representing each of 21 operational units that are designed to address fire suppression over a certain geographic area | LAC |
-| collection_method | Integer   | Code indicating the method used to collect data on perimeter of fire              | 2       |
+| collection_method | String    | The method used to collect data on perimeter of fire              | GPS Air	   |
 | acres_burned      | Float     | GIS calculated total area burned by the fire (in acres)        | 14056.26   |
 | shape_area        | Float     | GIS-calculated area of the fire perimeter                 | 494608.2 |
 | shape_length      | Float     | GIS-calculated perimeter length of the fire               | 16094.2    |
