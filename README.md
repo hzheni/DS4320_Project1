@@ -12,7 +12,7 @@ This README now documents a GFM-focused DS 4320 project and includes completed p
 | Press Release | [edit this](https://) |
 | Data | [link to data](https://myuva-my.sharepoint.com/:f:/g/personal/dkh8my_virginia_edu/IgCDBDKHn2iQSLx11w3ZwSp-AeE08wuRMYk7DauCEA86nws?e=7KTz9U) |
 | Pipeline | [analysis code](https://doi.org/10.1000/182) |
-| License | [MIT](LICENSE.md) |
+| License | [MIT LICENSE](./LICENSE) |
 
 ---
 
