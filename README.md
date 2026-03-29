@@ -88,7 +88,7 @@ When creating the dataset and designing the relational schema, there were severa
 
 ## Metadata
 ### Schema ERD
-<img src="./Images/Entity_Relationship_Diagram.png" alt="ERD" width="600">
+<img src="./Images/Entity_Relationship_Diagram.png" alt="ERD" width="500">
 
 ### Data Table
 
@@ -96,7 +96,7 @@ When creating the dataset and designing the relational schema, there were severa
 |------------|-------------|-------------|
 | Fires | This is the main table containing information about individual wildfire records in California, including size (acres burned), duration, and other fire-specific characteristics. It links to Cause, Weather, and Time tables via foreign keys. | [Fires.parquet](https://myuva-my.sharepoint.com/:u:/g/personal/dkh8my_virginia_edu/IQApmf0MB6NkQK7MqEYwlVddAY5AYAbT0qkseTH8VORLGmI?e=PFr6hg) |
 | Causes | This table contains unique fire causes, with a mapping from numeric cause codes to descriptive names. It serves as lookup table describing the cause of each wildfire, including both detailed cause names and broader classifications (e.g., human vs natural). | [Causes.parquet](https://myuva-my.sharepoint.com/:u:/g/personal/dkh8my_virginia_edu/IQClh_cav7JwTbcUGg2T6JB6AYM3DP1lYVBWYoQrBsrTFyA?e=ipL794) |
-| Weather | This table information about approximate weather conditions at the time of each fire, including temperature, precipitation, and wind speed. | [Weather.parquet]([_______](https://myuva-my.sharepoint.com/:u:/g/personal/dkh8my_virginia_edu/IQAZx47hY_9YTq2-cdsOjc9SAQdVwbl0yFSfpgEBxnfYRdQ?e=Uvqhjq)) |
+| Weather | This table information about approximate weather conditions at the time of each fire, including temperature, precipitation, and wind speed. | [Weather.parquet](https://myuva-my.sharepoint.com/:u:/g/personal/dkh8my_virginia_edu/IQAZx47hY_9YTq2-cdsOjc9SAQdVwbl0yFSfpgEBxnfYRdQ?e=Uvqhjq) |
 | Time | This table contains time-related attributes derived from the fire alarm dates, including year, month, season, and other temporal features. It allows for temporal analysis of wildfire patterns. | [Time.parquet](https://myuva-my.sharepoint.com/:u:/g/personal/dkh8my_virginia_edu/IQAUKgl5mmQbQLgn7TG8MKJnAfBp9gACRTszRS8Dk6vrw9o?e=28oyZE) |
 
 ### Data Dictionary
