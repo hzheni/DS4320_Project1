@@ -10,8 +10,8 @@ California experiences some of the most severe and frequent wildfires in the Uni
 | NetID | dkh8my |
 | DOI | [https://doi.org/10.1000/182](https://doi.org/10.1000/182) |
 | Press Release | [California Residents Can Monitor Possible Wildfire Sizes Using New Predictive Model](./Press_Release.md) |
-| Data | [link to data](https://myuva-my.sharepoint.com/:f:/g/personal/dkh8my_virginia_edu/IgCDBDKHn2iQSLx11w3ZwSp-AeE08wuRMYk7DauCEA86nws?e=7KTz9U) |
-| Pipeline | [analysis code](https://doi.org/10.1000/182) |
+| Data | [Link to Data](https://myuva-my.sharepoint.com/:f:/g/personal/dkh8my_virginia_edu/IgCDBDKHn2iQSLx11w3ZwSp-AeE08wuRMYk7DauCEA86nws?e=7KTz9U) |
+| Pipeline | [Problem Solution Pipeline Code](Problem_Solution_Pipeline.ipynb) |
 | License | [MIT LICENSE](./LICENSE) |
 
 ---
