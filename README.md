@@ -88,7 +88,7 @@ When creating the dataset and designing the relational schema, there were severa
 
 ## Metadata
 ### Schema ERD
-<img src="./Images/Entity_Relationship_Diagram.png" alt="ERD" width="500">
+<img src="./Images/Entity_Relationship_Diagram.png" alt="ERD" width="400">
 
 ### Data Table
 
