@@ -4,6 +4,8 @@
 California experiences some of the most severe and frequent wildfires in the United States, posing significant risks to human life, property, and ecosystems. This project focuses on predicting wildfire burn area in California using historic wildfire incident data, including a combination of causal factors (human activity), temporal factors (seasonality, time of year), and weather conditions (temperature, precipitation, wind speed). The project utilizes the California Fire Perimeters and Administrative Units datasets from CAL FIRE, which provides detailed records of wildfire incidents and management across the state. By building a relational database to organize this data and building a predictive model, the project aims to provide insights into the factors that contribute to wildfire size that may help inform public safety strategies for wildfire prevention and mitigation in California.
 
 ---
+# Project Details
+
 | Spec | Value |
 |---|---|
 | Name | Jessica Ni |
@@ -28,7 +30,7 @@ The general problem of predicting wildfire risk is broad and encompasses many un
 According to the National Interagency Fire Center, the state of California leads the country with the most wildfires. Wildfires can cause significant damage to public areas, ecosystems, and human health. Predicting wildfire size can help authorities allocate resources more effectively, issue timely warnings to residents, and implement preventive measures to reduce the likelihood of wildfires. Overall, understanding the factors that contribute to wildfire size and being able to predict it can help inform public safety and mitigate any negative impacts of wildfires in the future.
 
 ### Press Release Headline and Link
-[**edit this later!!!!**](https:)
+[**California Residents Can Monitor Possible Wildfire Sizes Using New Predictive Model**](https://github.com/hzheni/DS4320_Project1/blob/main/Press_Release.md)
 
 ## Domain Exposition
 ### Terminology
