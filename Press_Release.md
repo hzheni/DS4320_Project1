@@ -20,4 +20,4 @@ We developed a predictive tool that estimates how large a wildfire could become 
 
 The two-panel figure reveals how California wildfires have grown both more severe and more human-driven over time. Together, these trends underscore the growing human footprint on California's wildfire landscape and the urgent need for predictive tools that can help residents and responders anticipate which fires may become catastrophic.
 
-![Wildfire Trends](./Images/california_wildfires_trends.png)
+![Wildfire Trends](/Images/california_wildfires_trends.png)
