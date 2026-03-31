@@ -1,7 +1,8 @@
 # DS4320_Project1: Predicting California Wildfire Burn Area Using Causal, Temporal, and Weather Data
 
 ### Executive Summary
-California experiences some of the most severe and frequent wildfires in the United States, posing significant risks to human life, property, and ecosystems. This project focuses on predicting wildfire burn area in California using historic wildfire incident data, including a combination of causal factors (human activity), temporal factors (seasonality, time of year), and weather conditions (temperature, precipitation, wind speed). The project utilizes the California Fire Perimeters and Administrative Units datasets from CAL FIRE, which provides detailed records of wildfire incidents and management across the state. By building a relational database to organize this data and building a predictive model, the project aims to provide insights into the factors that contribute to wildfire size that may help inform public safety strategies for wildfire prevention and mitigation in California.
+
+This project focuses on predicting wildfire burn area in California using historic wildfire incident data from CAL FIRE. By integrating factors such as human activity, temporal features, and weather conditions, the project developes a relational database to organize wildfire records and conduct analysis. A predictive modeling pipeline is then applied to estimate wildfire size and identify the most influential drivers of fire severity. The repository includes the data acquisition and preprocessing code, links to the data in parquet format, supplemental materials, and the predictive modeling pipeline. Ultimately, the project aims to provide insights into the factors that contribute to wildfire size, helping inform public safety strategies for wildfire prevention and mitigation in California.
 
 ---
 # Project Details
