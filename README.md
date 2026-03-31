@@ -1,8 +1,8 @@
-# DS4320_Project1: Predicting California Wildfire Burn Area Using Causal, Temporal, and Weather Data
+# DS4320 Project1: Predicting California Wildfire Burn Area Using Causal, Temporal, and Weather Data
 
 ### Executive Summary
 
-This project focuses on predicting wildfire burn area in California using historic wildfire incident data from CAL FIRE. By integrating factors such as human activity, temporal features, and weather conditions, the project developes a relational database to organize wildfire records and conduct analysis. A predictive modeling pipeline is then applied to estimate wildfire size and identify the most influential drivers of fire severity. The repository includes the data acquisition and preprocessing code, links to the data in parquet format, supplemental materials, and the predictive modeling pipeline. Ultimately, the project aims to provide insights into the factors that contribute to wildfire size, helping inform public safety strategies for wildfire prevention and mitigation in California.
+This project focuses on predicting wildfire burn area in California using historic wildfire incident data from CAL FIRE. By integrating factors such as human activity, temporal features, and weather conditions, the project develops a relational database to organize wildfire records and conduct analysis. A predictive modeling pipeline is then applied to estimate wildfire size and identify the most influential drivers of fire severity. The repository includes the data acquisition and preprocessing code, links to the data in parquet format, supplemental materials, and the predictive modeling pipeline. Ultimately, the project aims to provide insights into the factors that contribute to wildfire size, helping inform public safety strategies for wildfire prevention and mitigation in California.
 
 ---
 # Project Details
@@ -14,7 +14,7 @@ This project focuses on predicting wildfire burn area in California using histor
 | DOI | [https://doi.org/10.1000/182](https://doi.org/10.1000/182) |
 | Press Release | [California Residents Can Monitor Possible Wildfire Sizes Using New Predictive Model](./Press_Release.md) |
 | Data | [Link to Data](https://myuva-my.sharepoint.com/:f:/g/personal/dkh8my_virginia_edu/IgCDBDKHn2iQSLx11w3ZwSp-AeE08wuRMYk7DauCEA86nws?e=7KTz9U) |
-| Pipeline | [Problem Solution Pipeline Code](Problem_Solution_Pipeline.ipynb) |
+| Pipeline | [Problem Solution Pipeline Code](Problem_Solution_Pipeline.ipynb) <br> [Problem Solution Pipeline Markdown](Problem_Solution_Pipeline.md) |
 | License | [MIT LICENSE](./LICENSE) |
 
 ---
@@ -53,7 +53,7 @@ According to the National Interagency Fire Center, the state of California leads
 This project lives in the domain of environmental science and public safety. On the environmental side, it focuses on understanding and predicting wildfire burn risk based on weather conditions, time factors, and human or nature related activity. The project involves utilizing historical wildfire incident data to understand the relationships between these factors and wildfire size, and then using this understanding to develop a predictive model that can inform residents and authorities about wildfire size risk in California. In the public safety domain, the project aims to provide actionable insights that can help guide preventive measures, resource allocation, and other public safety strategies to mitigate the impact of wildfires in California.
 
 ### Background Readings 
-*Link to Github folder of PDFs:* https://github.com/hzheni/DS4320_Project1/tree/main/Background%20Readings
+[Link to Github folder of PDFs](https://github.com/hzheni/DS4320_Project1/tree/main/Background%20Readings)
 
 ### Background Readings Table
 | Title | Description | Direct Link | Link to File in Folder |
@@ -67,7 +67,7 @@ This project lives in the domain of environmental science and public safety. On 
 
 ## Data Creation
 ### Data Acquisition
-The primary dataset used for this project is the California Department of Forestry and Fire Protection (CAL FIRE) Fire and Resource Assessment Program (FRAP) Wildfire Perimeters dataset. This dataset is maintained and updated annually by CAL FIRE in collaboration with the United States Forest Service Region 5, Bureau of Land Management, California State Parks, National Park Service, and the United States Fish and Wildlife Service. It provides a historical record of wildland fire perimeters across public and private lands in California, covering incidents dating back to 1878. For this project, the data was downloaded from the California Open Data Portal, which hosts the "California Fire Perimeters (all)" dataset in CSV format. The dataset was preprocessed to extract relevant columns for modeling fire size and some attributes were normalized into separate relational tables to allow for more flexible analysis.
+The primary dataset used for this project is the California Department of Forestry and Fire Protection (CAL FIRE) Fire and Resource Assessment Program (FRAP) Wildfire Perimeters dataset. This dataset is maintained and updated annually by CAL FIRE in collaboration with the United States Forest Service Region 5, Bureau of Land Management, California State Parks, National Park Service, and the United States Fish and Wildlife Service. It provides a historical record of wildland fire perimeters across public and private lands in California, covering incidents dating back to 1878. For this project, the data was downloaded from the California Open Data Portal, which hosts the "California Fire Perimeters (all)" dataset in CSV format. The dataset was preprocessed to extract relevant columns for modeling fire size and attributes were normalized into separate relational tables to allow for more flexible analysis.
 
 A secondary dataset used in this project is "CAL FIRE Administrative Units" dataset which provides information on the administrative units responsible for fire management in California. This dataset was also obtained from the California Open Data Portal, but downloaded in shapefile format. It was used to gain insights into the approximate locations of fire agencies and the areas they cover.
 
