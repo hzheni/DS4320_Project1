@@ -1,7 +1,5 @@
 # **California Residents Can Monitor Possible Wildfire Sizes Using New Predictive Model**
 
-Date: Mar 15, 2028
-
 ## Hook
 
 How can California residents stay informed about how large a wildfire might become once it starts? With wildfires becoming increasingly common and destructive in the state of California, a new predictive model has been developed to help residents monitor the potential size and severity of wildfires based on seasonality, weather conditions, and human activity patterns. This model helps residents and public safety to enforce preventive measures and stay safe during wildfire season.
@@ -20,4 +18,4 @@ We developed a predictive tool that estimates how large a wildfire could become 
 
 The two-panel figure reveals how California wildfires have grown both more severe and more human-driven over time. Together, these trends underscore the growing human footprint on California's wildfire landscape and the urgent need for predictive tools that can help residents and responders anticipate which fires may become catastrophic.
 
-![Wildfire Trends](../Images/california_wildfires_trends.png)
+![Wildfire Trends](./Images/california_wildfires_trends.png)
