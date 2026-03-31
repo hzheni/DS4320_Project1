@@ -608,7 +608,7 @@ plt.show()
 
 
     
-![png](Problem_Solution_Pipeline_files/Problem_Solution_Pipeline_14_0.png)
+![png](/Images/Problem_Solution_Pipeline_files/Problem_Solution_Pipeline_14_0.png)
     
 
 
