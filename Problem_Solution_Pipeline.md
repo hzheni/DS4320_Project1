@@ -112,6 +112,9 @@ if __name__ == "__main__":
 
 
 ```python
+# Function to explore the data: summary statistics and correlations to understand the relationships between variables and identify patterns in the data. 
+# The correlations show if there were any variables that may cause data leakage, and are derived after wildfire area is collected, which we would want to exclude from our model. 
+
 def explore_data(fire_data_df):
     try:
         logging.info("Starting data exploration")
