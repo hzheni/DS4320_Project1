@@ -7,6 +7,7 @@ This project focuses on predicting wildfire burn area in California using histor
 ---
 # Project Details
 
+|   | Details |
 |---|---|
 | Name | Jessica Ni |
 | NetID | dkh8my |
