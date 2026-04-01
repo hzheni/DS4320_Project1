@@ -160,10 +160,10 @@ When creating the dataset and designing the relational schema, there were severa
 | Feature Name      | Uncertainty Quantification                                                                               |
 | ----------------- | -------------------------------------------------------------------------------------------------------- |
 | collection_method | ~28% missing; uncertainty arises from incomplete reporting rather than numeric error.                    |
-| acres_burned      | ±0–10% depending on fire size and GIS boundary precision; larger fires may have higher estimation error. |
-| shape_area        | ±1–5% due to GIS resolution, projection differences, and boundary estimation.                            |
-| shape_length      | ±2–8% due to sensitivity to boundary complexity and spatial resolution.                                  |
-| duration_days     | ~28% missing; imputed values may introduce high uncertainty (up to ±100% for missing cases).             |
+| acres_burned      | Uncertainty arises from GIS boundary estimation, spatial resolution, and data collection methods; larger fires may exhibit higher estimation error. |
+| shape_area        | Uncertainty arises from GIS resolution, data collection method, projection differences, boundary estimation.                            |
+| shape_length      | Uncertainty arises from sensitivity to data collection method, boundary complexity, spatial resolution.                                  |
+| duration_days     | ~28% missing; imputed values may introduce high uncertainty (up to 100% for missing cases).             |
 
 **Causes Table**
 
@@ -176,12 +176,12 @@ When creating the dataset and designing the relational schema, there were severa
 | Feature Name | Uncertainty Quantification                                                                                 |
 |--------------|------------------------------------------------------------------------------------------------------------|
 | weather_id   | ±0 (exact value); unique identifier for each weather record.                                                 |
-| lat          | ±0.01° due to GPS accuracy; may translate to ~1 km uncertainty on the ground.                                |
-| long         | ±0.01° due to GPS accuracy; may translate to ~1 km uncertainty on the ground.                                |
-| temp_max     | ±0.5–2°C depending on the source and method of measurement; may vary by location and time.                   |
-| temp_min     | ±0.5–2°C depending on the source and method of measurement; may vary by location and time.                   |
-| precip       | ±0–2 mm for daily total; uncertainty depends on sensor accuracy and missing precipitation events. |
-| wind_speed   | ±1–3 km/h for daily max wind; uncertainty due to sensor accuracy, averaging over the day, and interpolation. |
+| lat          | Uncertainty due to GPS accuracy. Latitude measurement uncertainty for standard consumer GPS devices is generally about 3 to 10 meters  |
+| long         | Uncertainty due to GPS accuracy. Longitude measurement uncertainty for standard consumer GPS devices is generally about 3 to 10 meters |
+| temp_max     | Open-Meteo does not mention uncertainty values, but may vary due to method of measurement, location, and time. Maximum daily air temperature is at 2 meters above ground|
+| temp_min     | Open-Meteo does not mention uncertainty values, but may vary due to method of measurement, location, and time. Minimum daily air temperature is at 2 meters above ground                   |
+| precip       | Total precipitation (rain, showers, snow) sum of the preceding hour. Data is stored with a 0.1 mm precision. If precipitation data is summed up to monthly sums, there might be small inconsistencies with the total precipitation amount. |
+| wind_speed   | Uncertainty due to sensor accuracy. Wind speed at 10 or 100 meters above ground. Wind speed on 10 meters is the standard level. |
 
 **Time Table**
 | Feature Name        | Uncertainty Quantification                                                                                     |
