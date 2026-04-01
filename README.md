@@ -11,7 +11,7 @@ This project focuses on predicting wildfire burn area in California using histor
 |---|---|
 | Name | Jessica Ni |
 | NetID | dkh8my |
-| DOI | [https://doi.org/10.1000/182](https://doi.org/10.5281/zenodo.19362789) |
+| DOI | [https://doi.org/10.5281/zenodo.19362789](https://doi.org/10.5281/zenodo.19362789) |
 | Press Release | [California Residents Can Monitor Possible Wildfire Sizes Using New Predictive Model](https://github.com/hzheni/DS4320_Project1/blob/main/Press_Release.md) |
 | Data | [Link to Data](https://myuva-my.sharepoint.com/:f:/g/personal/dkh8my_virginia_edu/IgCDBDKHn2iQSLx11w3ZwSp-AeE08wuRMYk7DauCEA86nws?e=7KTz9U) |
 | Pipeline | [Problem Solution Pipeline Code](Problem_Solution_Pipeline.ipynb) <br> [Problem Solution Pipeline Markdown](Problem_Solution_Pipeline.md) |
